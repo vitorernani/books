@@ -14,6 +14,7 @@ public class LoginController {
 	
 	public String entrar() {
 		if(login.equals("joao") && senha.equals("123")) {
+			
 			//redirecionar
 			return "helloword.xhtml";	
 		}
